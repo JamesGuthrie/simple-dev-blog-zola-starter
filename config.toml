@@ -23,6 +23,8 @@ taxonomies = [
 
 [extra]
 
+katex = false
+
 nav = [
   { name = "About", path = "/about/" },
   { name = "Blog", path = "/blog/" }

@@ -23,6 +23,8 @@ taxonomies = [
 
 [extra]
 
+dark_mode = false
+
 katex = false
 
 nav = [

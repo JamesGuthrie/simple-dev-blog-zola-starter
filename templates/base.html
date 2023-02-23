@@ -61,6 +61,10 @@
       </script>
     {% endif %}
 
+    {% if config.extra.analytics %}
+      {{ config.extra.analytics | safe }}
+    {% endif %}
+
     <meta property="og:type" content="website">
 
     <meta name="twitter:card" content="summary">
